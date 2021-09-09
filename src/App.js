@@ -1,12 +1,14 @@
 import './App.css';
-import Inicio, {Persona} from './components/Inicio';
+import Saludar from './components/Saludar';
+
 
 function App() {
   return (
     <div className="App">
       <h1>Aprendiendo REACT</h1>
-      <Inicio />
-      <Persona />
+      <Saludar name="Jose Miguel Pantigoso puraca" edad="23"/>
+      <Saludar name="Jose Miguel Pantigoso puraca"/>
+      
     </div>    
   );
 }
